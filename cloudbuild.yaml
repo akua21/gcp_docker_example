@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/proven-audio-337909/testing', '.']
+  args: ['build', '-t', 'gcr.io/proven-audio-337909', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/proven-audio-337909/testing']
+  args: ['push', 'gcr.io/proven-audio-337909']
